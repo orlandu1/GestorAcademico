@@ -1,0 +1,113 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+    width: 180vh;
+    height: 90vh;
+    background-color: #606060;
+    border-radius: 10px;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.Home .main-container {
+    display: flex;
+    height: 50%;
+    padding: 5px;
+}
+
+.Home .second-container {
+    display: flex;
+    height: 50%;
+    padding: 5px;
+}
+
+.main-container .main-container1 {
+    width: 50%;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    margin: 5px;
+    box-shadow: 2px 2px 10px #111;
+}
+
+.main-container1 .FormSelect {
+    display: flex;
+    margin: 10px;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.main-container1 .container-form {
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.FormSelect .main-form {
+    display: flex;
+    margin-bottom: 20px;
+    margin: 0px 0px 20px 0px;
+}
+
+.FormSelect input {
+    padding-left: 20px;
+}
+
+.main-container .main-container2 {
+    width: 50%;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    margin: 5px;
+    box-shadow: 2px 2px 10px #111;
+
+}
+
+.second-container .second-container1 {
+    width: 100%;
+    background-color: #ecf0f1;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #111;
+ 
+}
+
+table {
+    width: 95%;
+    border-collapse: collapse;
+    text-align: left;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    font-size: small;
+    border-radius: 8px;
+    overflow: hidden;
+    margin:0px 10px 10px 10px;
+}
+
+
+thead tr {
+    background-color: #4CAF50;
+    color: #ffffff;
+    text-align: left;
+}
+
+thead th {
+    padding: 0px 0px;
+}
+
+tbody tr {
+    border-bottom: 1px solid #dddddd;
+    transition: background-color 0.3s ease;
+}
+
+tr td {
+    padding-left: 15px;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+p{
+    margin: 5px 0px 0px 0px;
+}
